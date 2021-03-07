@@ -1,0 +1,161 @@
+/* 页脚透明 */
+
+#footer {
+    background: transparent !important;
+}
+
+
+/* 隐藏回到顶部按钮，替换为up酱 */
+
+#go-up i {
+    display: none;
+    background-color: transparent !important;
+}
+
+#go-up {
+    background-color: transparent !important;
+}
+
+#upj {
+    transform: translate(-70px, -80px) !important;
+}
+/*新版3.0.0以上添加up酱置顶ico图标上移问题*/
+.fas.fa-arrow-up {
+    line-height: 2;
+}
+/* 版权链接去掉下划线 */
+
+.layout_post .post-copyright .post-copyright-info a {
+    text-decoration: none;
+}
+/* 目录隐藏按钮颜色 */
+
+#toggle-sidebar {
+    color: #e58a8a !important;
+}
+/* 博主昵称颜色 */
+.author-info__name {
+    color: #ff7242;
+}
+/* a标签默认颜色 */
+
+#article-container a {
+    color: #00c4b6;
+    text-decoration: none;
+}
+
+/* 鼠标悬停时的颜色 */
+
+#article-container a:hover {
+    color: #e58a8a;
+    text-decoration: none;
+}
+/*a标签颜色*/
+a {
+    color: #00c4b6;
+}
+/*页脚自定义字段字体颜色*/
+/* 也就是配置文件里的footer_custom_text */
+.footer_custom_text {
+    color: #00c4b6;
+}
+/* 鼠标图标 */
+
+body {
+    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/Jkll8I.png), auto;
+}
+
+
+/*a标签*/
+
+a:hover {
+    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+
+
+/*按钮*/
+
+button:hover {
+    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+
+#rightside>div>button,
+#rightside>div>a {
+    display: block;
+    margin-bottom: 2px;
+    width: 30px;
+    height: 30px;
+    color: var(--btn-color);
+    text-align: center;
+    font-size: 16px;
+    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+
+
+/* 打赏 */
+
+.post-reward .reward-button {
+    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+
+
+/* 文章标签 */
+
+.layout_post .tag_share .post-meta__tags {
+    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+
+
+/* 评论区 */
+
+.vcol * {
+    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+
+.v[data-class=v] .vicon {
+    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+
+.v[data-class=v] .vbtn {
+    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+
+
+/* 回复 */
+
+.vat {
+    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+
+
+/*i标签*/
+
+i:hover {
+    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+
+
+/*up酱*/
+
+#upj:hover {
+    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+
+
+/*页脚a标签*/
+
+#footer-wrap a:hover {
+    text-decoration: none;
+    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+
+
+/*分页器*/
+
+#pagination .page-number:hover {
+    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+/* 分页器的三个点(...) */
+.space {
+    color: #00c4b6;
+}
